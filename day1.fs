@@ -5,12 +5,11 @@ module Res =
 
     let calories =
         load_file "inputs/day1.txt"
-        |> Seq.map (fun line ->
+        |> Array.map (fun line ->
             if System.String.IsNullOrEmpty line then
                 None
             else
                 Some(line |> int))
-        |> Seq.toArray
 
     let rec separate arr =
         fun data ->
