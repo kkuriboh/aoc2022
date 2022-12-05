@@ -7,5 +7,7 @@
         Day1.Res.print_res
         printfn "day2: "
         Day2.Res.print_res
+        printfn "day3: "
+        Day3.Res.print_res
 
         0
