@@ -1,4 +1,4 @@
-namespace Day2
+namespace Aoc
 
 type Options =
     | Rock
@@ -17,7 +17,7 @@ type Options =
         | Options.Paper -> 2
         | Options.Scissors -> 3
 
-module Res =
+module Day2 =
     open Utils.Helpers
 
     let file = load_file "inputs/day2.txt"

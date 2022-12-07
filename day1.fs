@@ -1,6 +1,6 @@
-namespace Day1
+namespace Aoc
 
-module Res =
+module Day1 =
     open Utils.Helpers
 
     let calories =

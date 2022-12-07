@@ -1,6 +1,6 @@
-namespace Day4
+namespace Aoc
 
-module Res =
+module Day4 =
     open Utils.Helpers
     let file = load_file "inputs/day4.txt"
 
