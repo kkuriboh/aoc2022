@@ -13,5 +13,7 @@
         Aoc.Day4.print_res
         printfn "day5"
         Aoc.Day5.print_res
+        printfn "day6"
+        Aoc.Day6.print_res
 
         0
